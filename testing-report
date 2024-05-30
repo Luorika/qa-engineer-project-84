@@ -69,7 +69,7 @@ status: pass
 ---
 - summary: |
     Успешное очистка корзины
-status: pass
+status: fail
 ---
 - summary: |
     Успешное оформление заказа
