@@ -1,14 +1,6 @@
 ---
 - summary: |
-    Адаптивность сайта в разрешении 375x667
-status: fail
----
-- summary: |
-    Адаптивность сайта в разрешении 768x1024
-status: fail
----
-- summary: |
-    Адаптивность сайта в разрешении 1440x1080
+    Адаптивность сайта при просмотре с устройств с разным разрешением
 status: fail
 ---
 - summary: |
@@ -21,70 +13,70 @@ status: pass
 ---
 - summary: |
     Успешная совместимость с последней версией браузера Safari
-status: 
+status: pass
 ---
 - summary: |
     Отсутствие ошибок при загрузке сайта
-status: 
+status: fail
 ---
 - summary: |
-    Корректная загрузка сайта при медленной скорости соединения
-status: 
+    Корректная загрузка сайта при разной скорости соединения
+status: pass
 ---
 - summary: |
     Использование безопасного соединенения для передачи данных
-status: 
+status: pass
 ---
 - summary: |
     Успешная обработка большого трафика
-status: 
+status: pass
 ---
 - summary: |
     Правильное отображение сайта на английском языке 
-status: 
+status: fail
 ---
 - summary: |
     Правильное отображение сайта на русском языке
-status: 
+status: fail
 ---
 - summary: |
     Успешный поиск по ключевому слову
-status: 
+status: fail
 ---
 - summary: |
     Поиск отсутствующего товара по ключевому слову
-status: 
+status: pass
 ---
 - summary: |
     Успешный поиск по категории
-status: 
+status: pass
 ---
 - summary: |
     Успешное применение фильтров товаров
-status: 
+status: pass
 ---
 - summary: |
     Успешный просмотр карточки товара
-status: 
+status: pass
 ---
 - summary: |
     Успешное добавление товара в корзину
-status: 
+status: pass
 ---
 - summary: |
     Успешное удаление товара из корзины
-status: 
+status: pass
 ---
 - summary: |
     Успешное очистка корзины
-status: 
+status: pass
 ---
 - summary: |
     Успешное оформление заказа
-status: 
+status: pass
 ---
 - summary: |
     Успешная защита от XSS
-status: 
+status: pass
 
 
