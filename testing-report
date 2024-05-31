@@ -40,7 +40,11 @@ status: fail
 status: fail
 ---
 - summary: |
-    Успешный поиск по ключевому слову
+    Успешный поиск по ключевому слову на английском языке
+status: fail
+---
+- summary: |
+    Успешный поиск по ключевому слову на русском языке
 status: fail
 ---
 - summary: |
@@ -78,5 +82,14 @@ status: pass
 - summary: |
     Успешная защита от XSS
 status: pass
+---
+- summary: |
+    Наличие формы обратной связи
+status: fail
+---
+- summary: |
+    Правильное отображение цены товара
+status: fail
+
 
 
