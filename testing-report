@@ -65,7 +65,7 @@ status: pass
 ---
 - summary: |
     Успешное добавление товара в корзину
-status: pass
+status: fail
 ---
 - summary: |
     Успешное удаление товара из корзины
