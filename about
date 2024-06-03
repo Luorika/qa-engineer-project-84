@@ -1,13 +1,13 @@
 ---
-name: Anastasia 
+name: Ilona Maskova # ваше имя
 job: QA Engineer
 level: junior
-email: lialiulyo@gmail.com
+email: ilona@hexlet.io
 description: |
   Это текст-описание в свободной форме. Здесь можно рассказать пару интересных фактов про себя
 
   Текст может быть написан в несколько абзацев
-skills: 
+skills: # список навыков в виде списка, напишите что-то свое
   - функциональное тестирование
   - написание багрепортов
   - Linux
