@@ -51,7 +51,7 @@
   requirement: |
     При входе на сайт через браузер Safari последней версии сайт отображается корректно
   prerequisites: |
-     Открыт https://live.browserstack.com
+    Открыт https://live.browserstack.com
   test-data: |
     Сайт = https://hexlet-products-store.vercel.app/
   steps:
