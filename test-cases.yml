@@ -6,15 +6,15 @@
   prerequisites: |
     Открыта страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
-    Разрешение = 375x667 разрешение = 768x1024 разрешение = 1440x1080
+    Разрешение экрана
   steps:
     - Открываем DevTools 
     - Открываем режим адаптивного дизайна
-    - Выбираем 375x667
+    - Выбираем разрешение 375x667
     - Смотрим в вертикальном и горизонтальном окне просмотра
-    - Выбираем 768x1024
+    - Выбираем разрешение 768x1024
     - Смотрим в вертикальном и горизонтальном окне просмотра
-    - Выбираем 1440x1080
+    - Выбираем разрешение 1440x1080
   expected-result: |
     Сайт должен отображаться корректно во всех разрешниях
 ---
@@ -25,7 +25,7 @@
   prerequisites: |
     Открыт https://live.browserstack.com
   test-data: |
-    Сайт = https://hexlet-products-store.vercel.app/
+    Совместимость 
   steps:
     - Выбираем Google Chrome версия 125
     - Открываем сайт
@@ -39,7 +39,7 @@
   prerequisites: |
     Открыт https://live.browserstack.com
   test-data: |
-    Сайт = https://hexlet-products-store.vercel.app/
+    Совместимость 
   steps:
     - Выбираем Mozilla Firefox версия 126
     - Открывем сайт
@@ -53,7 +53,7 @@
   prerequisites: |
     Открыт https://live.browserstack.com
   test-data: |
-    Сайт = https://hexlet-products-store.vercel.app/
+    Совместимость 
   steps:
     - Выбираем Safari версия 17.3
     - Открываем сайт
@@ -67,7 +67,7 @@
   prerequisites: |
     Открыта страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
-    Вкладка Console
+    Сетевые запросы
   steps:
     - Открываем вкладку Console DevTools 
     - Обновляем страницу сайта
@@ -82,7 +82,7 @@
   prerequisites: |
     Открыта страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
-    Скорость соединения = GPRS скорость соединения = Good 2G скорость соединения = Good 3G скорость соединения = Wi-Fi
+    Скорость соединения
   steps:
     - Открываем DevTools 
     - Выбираем GPRS
@@ -118,7 +118,7 @@
   prerequisites: |
     Приготовить несколько устройств (смартфон, ноутбук), открыть разные браузеры и несколько вкладок в каждом 
   test-data: |
-    Сайт = https://hexlet-products-store.vercel.app/ 
+    Трафик
   steps:
     - Открываем сайт на каждом устройстве и каждом браузере
     - Просматриваем карточки товаров  
@@ -134,7 +134,7 @@
   prerequisites: |
     Открыта страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
-    Язык = английский
+    Язык = English 
   steps:
     - В меню выбрать язык
     - Проверить все надписи
@@ -298,7 +298,7 @@
   prerequisites: |
     Открыта страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
-    JavaScript-код = <script>alert('Я отправил вам скрипт! Пришлите денег, пожалуйста :(')</script>
+    Код = <script>alert('Я отправил вам скрипт! Пришлите денег, пожалуйста :(')</script>
   steps:
     - Вводим в стоку поиска JavaScript-код
   expected-result: |
