@@ -1,99 +1,99 @@
 ---
 - summary: |
     Адаптивность сайта при просмотре с устройств с разным разрешением
-status: fail
+  status: fail
 
 - summary: |
     Успешная совместимость с последней версией браузера Google Chrome 
-status: pass
+  status: pass
 
 - summary: |
     Успешная совместимость с последней версией браузера Mozilla Firefox 
-status: pass
+  status: pass
 
 - summary: |
     Успешная совместимость с последней версией браузера Safari
-status: pass
+  status: pass
 
 - summary: |
     Отсутствие ошибок при загрузке сайта
-status: fail
+  status: fail
 
 - summary: |
     Корректная загрузка сайта при разной скорости соединения
-status: pass
+  status: pass
 
 - summary: |
     Использование безопасного соединенения для передачи данных
-status: pass
+  status: pass
 
 - summary: |
     Успешная обработка большого трафика
-status: pass
+  status: pass
 
 - summary: |
     Правильное отображение сайта на английском языке 
-status: fail
+  status: fail
 
 - summary: |
     Правильное отображение сайта на русском языке
-status: fail
+  status: fail
 
 - summary: |
     Успешный поиск по ключевому слову на английском языке
-status: fail
+  status: fail
 
 - summary: |
     Успешный поиск по ключевому слову на русском языке
-status: fail
+  status: fail
 
 - summary: |
     Поиск отсутствующего товара по ключевому слову
-status: pass
+  status: pass
 
 - summary: |
     Успешный поиск по категории
-status: pass
+  status: pass
 
 - summary: |
     Успешное применение фильтров товаров
-status: pass
+  status: pass
 
 - summary: |
     Успешный просмотр карточки товара
-status: pass
+  status: pass
 
 - summary: |
     Успешное добавление товара в корзину
-status: fail
+  status: fail
 
 - summary: |
     Успешное удаление товара из корзины
-status: pass
+  status: pass
 
 - summary: |
     Успешное очистка корзины
-status: fail
+  status: fail
 
 - summary: |
     Успешное оформление заказа
-status: pass
+  status: pass
 
 - summary: |
     Успешная защита от XSS
-status: pass
+  status: pass
 
 - summary: |
     Наличие формы для внесения контактов клиента
-status: fail
+  status: fail
 
 - summary: |
     Наличие формы обратной связи
-status: fail
+  status: fail
 
 - summary: |
     Правильное отображение цены товара
-status: fail
+  status: fail
 
 
 
